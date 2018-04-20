@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/theme_son"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="预报"
+            android:textColor="@color/title_font_color"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:id="@+id/forecast_time_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="2018-4-19"
+                android:textColor="@color/title_font_color"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/forecast_status_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="晴转多云"
+                android:textColor="@color/title_font_color"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/forecast_max_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="19"
+                android:textColor="@color/title_font_color"
+                android:textSize="14sp"
+
+                />
+
+            <TextView
+                android:id="@+id/forecast_aleast_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="24"
+                android:textColor="@color/title_font_color"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:id="@+id/forecast_time_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="2018-4-20"
+                android:textColor="@color/title_font_color"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/forecast_status_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="多云"
+                android:textColor="@color/title_font_color"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/forecast_max_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="20"
+                android:textColor="@color/title_font_color"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/forecast_aleast_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="26"
+                android:gravity="right"
+                android:textColor="@color/title_font_color"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/forecast_time_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="2018-4-21"
+                android:textColor="@color/title_font_color"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/forecast_status_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="小雨"
+                android:gravity="right"
+                android:textColor="@color/title_font_color"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/forecast_max_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="16"
+                android:gravity="right"
+                android:textColor="@color/title_font_color"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/forecast_aleast_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="23"
+                android:textColor="@color/title_font_color"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
